@@ -1,0 +1,16 @@
+/*
+=================================================================
+Create a database and schemas
+=================================================================
+Script purpose:
+  This script creates a new database named Datawarehouse after checking whether the database already exists. If the database exists, it is dropped and recreated. 
+  Additionally, the script set up three other schemas, namely: bronze, silver, and gold
+
+
+-- Create Database
+Create database Datawarehouse;
+
+-- Create schema for bronze, silver, and gold
+Create schema datawarehouse_bronze;
+Create schema datawarehouse_silver;
+Create schema datawarehouse_gold;
